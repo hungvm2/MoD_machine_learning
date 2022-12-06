@@ -1,0 +1,32 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Để mở rộng tốt hơn năng lực và độ phân giải của mô hình, một số điều chỉnh được thực hiện trên kiến trúc Swin Transformer ban đầu (V1): 1) Một res-post-norm thay thế cấu hình pre-norm trước đó; 2) \textit  {Scaled cosine attention} thay thế các tiếp cận dot product attention ban đầu; 3) Phương pháp tiếp cận log-spaced continuous relative position bias thay thế cách tiếp cận tham số hóa trước đây. Phương pháp 1) và 2) giúp mô hình mở rộng năng lực dễ dàng hơn. Phương pháp 3) giúp mô hình chuyển đổi tốt hơn với các độ phân giải khẩu độ khác nhau. Kiến trúc được cải thiện này gọi là Swin Transformer V2.\relax }}{1}{figure.caption.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Biểu đồ lan truyền tín hiệu với các kích thước mô hình khác nhau. Các mô hình kích thước H được huấn luyện ở giai đoạn học tự giám sát và các kích thước khác được huấn luyện bằng nhiệm vụ phân loại ảnh. * cho thấy mô hình 40-epoch được sử dụng trước khi gặp sự cố.\relax }}{4}{figure.caption.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces SwinV1-H so với SwinV2-H trong huấn luyện.\relax }}{4}{figure.caption.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces So sánh các phương pháp tính toán chệch vị khác nhau sử dụng Swin-T. Dấu (*) là để đề cập tới độ chính xác $top-2$ trên tập ImageNet-1k được huấn luyện từ đầu. Các mô hình trong cột (*) sẽ được sử dụng để đánh giá trên các nhiệm vụ phân loại ảnh của tập ImageNet-1K sử dụng độ phân giải của khẩu độ/ảnh lớn hơn, đánh dấu bởi dấu (+). Với các kết quả này, chúng tôi ghi lại cả các kết quả có và không có tinh chỉnh. Các mô hình này cũng được sử dụng cho tinh chỉnh trên các bài toán phát hiện vật thể trên tập COCO và bài toán phân đoạn ngữ nghĩa trên tập ADE20K.\relax }}{7}{table.caption.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces So sánh với các mô hình thị giác lớn nhất trước đây trên tập ImageNet-1K V1 và V2. Ký tự * để mô tả đây là mô hình thưa, cột "pre-train time" được đo đạc bởi TPUv3 nhiều ngày với số liệu được lấy từ bài báo gốc. Ký tự \dag  của SwinV2-G được ước lượng theo các vòng lặp và FLOPs khi huấn luyện.\relax }}{7}{table.caption.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces So sánh với các kết quả tốt nhất trước đây trên tập phân loại và phát hiện vật thể COCO. I(W) là ảnh và kích thước khẩu độ, \textit  {ms} nghĩa là thử nghiệm trên nhiều độ phân giải đã được tiến hành.\relax }}{7}{table.caption.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces So sánh với các kết quả tốt nhất trước đây trên tập ADE20K. Ký hiệu * để ám chỉ kiểm thử multi-scale được sử dụng.\relax }}{7}{table.caption.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces So sánh với các kết quả tốt nhất trên dữ liệu phân loại hành động trên video Kinetics-400.\relax }}{8}{table.caption.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Lược bỏ tiến hành trên lớp res-post-norm và cosine attention.\relax }}{9}{table.caption.8}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces So sánh với các phương pháp chuẩn hóa khác. Phương pháp post-norm phân kỳ ở learning rate mặc định, và chúng tôi sử dụng 1/4 giá trị learning rate mặc định cho phương pháp này. Sandwich cho kết quả kém hơn kết quả của chúng tôi.\relax }}{9}{table.caption.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Lược bỏ trên Log-CPB sử dụng các kích thước mô hình khác nhau.\relax }}{9}{table.caption.10}\protected@file@percent }
+\newlabel{LastPage}{{}{10}{}{page.10}{}}
+\xdef\lastpage@lastpage{10}
+\xdef\lastpage@lastpageHy{10}

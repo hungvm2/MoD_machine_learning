@@ -1,0 +1,96 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage{amsmath, amsfonts, amsthm} % Math packages
+
+% Packages for Title Page
+% \usepackage{newlfont}
+% \usepackage{gensymb}
+
+% \usepackage{listings} % Code listings, with syntax highlighting
+
+\usepackage[utf8]{inputenc}
+% \usepackage[english,vietnam]{babel}
+% \usepackage[utf7]{vietnam}
+
+%----------------------------------------------------------------------------------------
+%	IMAGES CONFIGURATION
+%----------------------------------------------------------------------------------------
+\usepackage{graphicx} % Required for inserting images
+\graphicspath{{Figures/}{./}} % Specifies where to look for included images (trailing slash required)
+\usepackage{xstring}
+
+\usepackage{subcaption}
+\DeclareCaptionFormat{custom}
+{
+    \normalsize\textit{#1}\textit{#2}\textit{\normalsize #3}
+}
+\captionsetup{format=custom}
+
+
+%----------------------------------------------------------------------------------------
+%	LIST CONFIGURATION
+%----------------------------------------------------------------------------------------
+% \usepackage{enumitem} % Required for list customisation
+% \setlist{noitemsep} % No spacing between list items
+
+
+%----------------------------------------------------------------------------------------
+%	PARAGRAPH FORMATTING 
+%----------------------------------------------------------------------------------------
+% \setlength\parindent{0pt} % Removes all indentation from paragraphs
+% \setlength{\parindent}{2em}
+\usepackage{indentfirst}
+% \usepackage[skip=10pt plus1pt, indent=25pt]{parskip}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT MARGINS
+%----------------------------------------------------------------------------------------
+% \usepackage{geometry} % Required for adjusting page dimensions and margins
+
+% \geometry{
+% 	paper=a4paper, % Paper size, change to letterpaper for US letter size
+% 	top=2cm, % Top margin
+% 	bottom=2.5cm, % Bottom margin
+% 	left=3cm, % Left margin
+% 	right=3cm, % Right margin
+% 	headheight=0.75cm, % Header height
+% 	footskip=1.5cm, % Space from the bottom margin to the baseline of the footer
+% 	headsep=0.75cm, % Space from the top margin to the baseline of the header
+% 	%showframe, % Uncomment to show how the type block is set on the page
+% }
+
+%----------------------------------------------------------------------------------------
+%	FONTS
+%----------------------------------------------------------------------------------------
+% \usepackage[utf8]{inputenc} % Required for inputting international characters
+% \usepackage[T1]{fontenc} % Use 8-bit encoding
+% \usepackage{fourier} % Use the Adobe Utopia font for the document
+% \usepackage{sectsty}
+\usepackage[usenames,dvipsnames]{color}
+% \sectionfont{\fontsize{12}{22}\selectfont}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 
+%----------------------------------------------------------------------------------------
+% \setcounter{section}{14}
+% \usepackage{sectsty} % Allows customising section commands
+
+% \sectionfont{\vspace{6pt}\centering\normalfont\scshape} % \section{} styling
+% \subsectionfont{\normalfont\bfseries} % \subsection{} styling
+% \subsubsectionfont{\normalfont\itshape} % \subsubsection{} styling
+% \paragraphfont{\normalfont\scshape} % \paragraph{} styling
+
+%----------------------------------------------------------------------------------------
+%	HEADERS AND FOOTERS
+%----------------------------------------------------------------------------------------
+% \usepackage{scrlayer-scrpage} % Required for customising headers and footers
+
+% \ohead*{} % Right header
+% \ihead*{} % Left header
+% \chead*{} % Centre header
+
+% \ofoot*{} % Right footer
+% \ifoot*{} % Left footer
+% \cfoot*{} % Centre footer
